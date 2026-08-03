@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CAN Protocol Deep Dive | Embedded Learning Hub</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body style="background:#0a192f; color:#8892b0; font-family:sans-serif; padding:20px; line-height:1.6;">
+    <h1 style="color:#64ffda;">CAN Protocol: The Automotive Backbone</h1>
+    <p>The Controller Area Network (CAN) is a robust vehicle bus standard designed to allow microcontrollers to communicate without a host computer.</p>
+    
+    <h3 style="color:#e6f1ff;">Key Features of CAN:</h3>
+    <ul>
+        <li>Multi-master communication</li>
+        <li>Differential signaling (Noise immunity)</li>
+        <li>Priority-based message arbitration</li>
+    </ul>
+
+    <h3 style="color:#e6f1ff;">CAN Frame Structure:</h3>
+    <p>A standard CAN frame consists of an Identifier (11-bit), Control field, and up to 8 bytes of Data.</p>
+    
+    <div style="background:#112240; padding:15px; border-left:4px solid #64ffda; margin:20px 0;">
+        <code style="color:#64ffda; font-family:monospace;">// Example CAN Init Code<br>CAN_Handler.Instance = CAN1;<br>CAN_Handler.Init.Mode = CAN_MODE_NORMAL;</code>
+    </div>
+
+    <a href="../blog.html" style="color:#64ffda;">← Back to Blog</a>
+</body>
+</html>
